@@ -1,6 +1,6 @@
 public class IphoneSamsungAdapter implements SamsungCharger{
 
-    private IPhoneCharger iPhoneCharger;
+    private final IPhoneCharger iPhoneCharger;
 
     public IphoneSamsungAdapter(IPhoneCharger iPhoneCharger) {
         this.iPhoneCharger = iPhoneCharger;
