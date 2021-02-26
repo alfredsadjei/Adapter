@@ -21,8 +21,6 @@ public class Main {
         System.out.println("\nChecking if s10 charger is a samsung charger:");
         chargeSamsung(s10Charger);
 
-//        System.out.println("\nChecking whether iphonex charger is samsung charger");
-//        chargeSamsung(iphoneXCharger);
 
         System.out.println("\nAdapting IphoneCharger to charge samsung  with IphoneSamsung Adapter");
         chargeSamsung(new IphoneSamsungAdapter(iphoneXCharger));
